@@ -1,0 +1,104 @@
+*{
+    font-family: "Kantumruy Pro", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h3, p{
+    text-align: center;
+    margin-top: 10px;
+}
+h3{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-top: 20px;
+    padding: 10px 50px;
+}
+.box1{
+    background: linear-gradient(to right, rgb(0, 159, 255), rgb(236, 47, 75));
+    width: 50%;
+    height: 300px;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.box1 .block-img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 50%;
+    background: url('avatar.jpg');
+    background-size: cover;
+}
+.box1 .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box1 .block-name{
+    padding: 8px 10px;
+}
+.box1 .block-name > label{
+    float: left;
+    margin-left: 3px;
+    color: #e9e2e2;
+}
+.box1 .block-name > input, select{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.box1 .block-name > input{
+    padding: 10px;
+}
+.box1 .block-name > select{
+    padding: 5px;
+}
+.box1 .btn > input{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.box2{
+    background: linear-gradient(to right, rgb(22, 191, 253), rgb(203, 48, 102));
+    width: 50%;
+    height: 300px;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.box2 .block-img{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 50%;
+    background: url('avatar.jpg');
+    background-size: cover;
+}
+.box2 .detail{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
